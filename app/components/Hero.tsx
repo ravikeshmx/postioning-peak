@@ -62,9 +62,9 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="font-[family-name:var(--font-display)] text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight mb-8"
         >
-          POSITIONING
+          Positioning
           <br />
-          <span className="text-[var(--accent)]">PEAK</span>
+          <span className="text-[var(--accent)]">Peak</span>
         </motion.h1>
 
         <motion.p

@@ -1,0 +1,1 @@
+export const CALENDLY_URL = "https://calendly.com/ravikeshkumar04062004/new-meeting"

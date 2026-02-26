@@ -36,26 +36,6 @@ export default function Footer() {
   return (
     <footer className="py-20 px-6 bg-[var(--surface)] border-t border-[var(--border)]">
       <div className="max-w-4xl mx-auto text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl font-bold mb-6">
-            Ready to build your authority?
-          </h2>
-          <p className="text-[var(--text-secondary)] mb-8 max-w-xl mx-auto">
-            You focus on building the product. We&apos;ll build the audience that
-            finds it.
-          </p>
-          <a
-            href="mailto:hello@positioningpeak.com"
-            className="inline-block px-8 py-4 bg-[var(--accent)] text-[var(--background)] font-semibold rounded-full hover:bg-[var(--accent-hover)] transition-all duration-300 transform hover:scale-[1.02]"
-          >
-            Get Started
-          </a>
-        </motion.div>
 
         <div className="mt-16 pt-8 border-t border-[var(--border)] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
